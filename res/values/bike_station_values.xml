@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bike_station_db_version">1</integer>
+    <string name="bike_station_label">BIXI Montréal Bike</string>
+    <string name="bike_station_authority">org.mtransit.android.ca_montreal_bixi_bike</string>
+    <string name="bike_station_status_for_poi_authority">org.mtransit.android.ca_montreal_bixi_bike</string>
+    <string name="bike_station_data_url">https://montreal.bixi.com/data/bikeStations.xml</string>
+    <string name="bike_station_area_min_lat">45.429559</string>
+    <string name="bike_station_area_max_lat">45.58077</string>
+    <string name="bike_station_area_min_lng">-73.66712</string>
+    <string name="bike_station_area_max_lng">-73.4954</string>
+    <color name="bike_station_value1_color">#D42B1E</color> <!-- RED -->
+    <color name="bike_station_value1_color_bg">#FFFFFF</color> <!-- WHITE -->
+    <color name="bike_station_value2_color">#FFFFFF</color> <!-- WHITE -->
+    <color name="bike_station_value2_color_bg">#000000</color> <!-- BLACK -->
+</resources>

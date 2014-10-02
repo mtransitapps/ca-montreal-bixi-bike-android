@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mtransit.android.ca_montreal_bixi_bike"
+    android:versionCode="1"
+    android:versionName="DEV" >
+    <!-- REQUEST PERMISSIONS USAGE -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- DECLARES PERMISSIONS -->
+    <permission
+        android:name="org.mtransit.android.provider.permission.READ_PROVIDER"
+        android:description="@string/permission_description_read"
+        android:label="@string/permission_label_read"
+        android:protectionLevel="signature" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_desc"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <!-- SPLASH SCREEN -->
+        <!-- suppress MissingRegistered -->
+        <activity
+            android:name="org.mtransit.android.commons.ui.ModuleRedirectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:enabled="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- BIKE STATIONs PROVIDER -->
+        <!-- suppress MissingRegistered -->
+        <provider
+            android:name="org.mtransit.android.commons.provider.BixiBikeStationProvider"
+            android:authorities="@string/bike_station_authority"
+            android:exported="true"
+            android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER" >
+            <meta-data
+                android:name="@string/agency_provider"
+                android:value="@string/agency_provider" />
+            <meta-data
+                android:name="@string/poi_provider"
+                android:value="@string/poi_provider" />
+            <meta-data
+                android:name="@string/status_provider"
+                android:value="@string/status_provider" />
+            <meta-data
+                android:name="@string/status_provider_target"
+                android:value="@string/bike_station_status_for_poi_authority" />
+        </provider>
+    </application>
+</manifest>
