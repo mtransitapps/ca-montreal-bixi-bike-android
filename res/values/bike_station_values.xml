@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="bike_station_db_version">2</integer>
+    <integer name="bike_station_db_version">3</integer>
     <string name="bike_station_label">BIXI Montréal Bike</string>
     <string name="bike_station_authority">org.mtransit.android.ca_montreal_bixi_bike</string>
     <string name="bike_station_status_for_poi_authority">org.mtransit.android.ca_montreal_bixi_bike</string>
