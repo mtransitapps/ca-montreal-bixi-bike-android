@@ -1,0 +1,37 @@
+Title: Montreal BIXI Bike for MT
+----------
+Short description: Montreal BIXI bike sharing information for MT.
+----------
+Full description:
+BETA: TEST IN PROGRESS
+To leave the test: http://goo.gl/b4Ttwk
+
+This application adds Montreal BIXI bike information in MT.
+
+Once this application is installed, the MT app will display bike stations information (number of available bikes & docks).
+
+This application only has a temporary icon and no screen: download the MT app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5m
+
+You can install this application on the SD card but it is not recommended.
+
+The information comes from a web-service provided by BIXI Montreal: 
+https://montreal.bixi.com/data/bikeStations.xml
+
+This application is free and open-source:
+https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
+
+This application is not related with the BIXI Montréal.
+----------
+Application type: Applications
+----------
+Category: Transportation
+----------
+Content rating: Low Maturity
+----------
+Website: https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
+----------
+Email: mtransit.apps+GooglePlay@gmail.com
+----------
+Phone: 
+----------
+Privacy Policy:

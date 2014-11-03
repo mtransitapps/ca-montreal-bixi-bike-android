@@ -1,0 +1,23 @@
+Title: Vélo BIXI de Montréal pour MT
+----------
+Short description: Information des vélos partagés STM de Montréal pour MT.
+----------
+Full description:
+BETA : TEST EN COURS
+Pour quitter le test : http://goo.gl/b4Ttwk
+
+Cette application ajoute les informations des vélos BIXI de Montréal dans MT.
+
+Une fois cette application installée, l'application MT affichera les informations des stations vélos (nombre de vélos et d'emplacements disponibles).
+
+Cette application a seulement une icône temporaire et pas d'écran : télécharger l'app MT (gratuit) dans la section "Autres ..." ci-dessous ou en cliquant sur ce lien Google Play http://goo.gl/pCk5m
+
+Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
+
+Les informations viennent d'un web-service fourni par BIXI Montréal: 
+https://montreal.bixi.com/data/bikeStations.xml
+
+Cette application est gratuite et open-source : 
+https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
+
+Cette application n'est pas associée à BIXI Montréal.
