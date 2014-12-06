@@ -47,6 +47,9 @@
                 android:name="@string/agency_provider"
                 android:value="@string/agency_provider" />
             <meta-data
+                android:name="@string/agency_provider_type"
+                android:value="@integer/bike_station_agency_type" />
+            <meta-data
                 android:name="@string/poi_provider"
                 android:value="@string/poi_provider" />
             <meta-data
