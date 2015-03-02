@@ -1,16 +1,21 @@
-Title: Montreal BIXI Bike(MonTransit)
+Title: Montreal BIXI Bike - MonTrans…
 ----------
-Short description: Montreal BIXI bike sharing information for MonTransit BETA.
+Short description:
+Montreal BIXI bikes for MonTransit BETA
+Availability & Tweets from @BIXImontreal
 ----------
 What's new in this version?:
-BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
-
 Bug fixes & performance improvements.
+Tweets from @BIXImontreal.
+
+BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 ----------
 Full description:
-BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
-
 This application adds Montreal BIXI bike information to MonTransit BETA.
+
+This app contains the bike stations position & availability as well as the latest news from @BIXImontreal on Twitter.
+
+BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 
 BIXI Montreal is available from April to November in Montreal, Westmount and Longueuil.
 
@@ -29,7 +34,7 @@ https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
 This application is not related with the BIXI Montreal.
 
 Permissions:
-- Other: required to load bike stations information
+- Other: required to load bike stations information and to read news (Twitter)
 ----------
 Application type: Applications
 ----------
