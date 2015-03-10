@@ -11,7 +11,7 @@ Tweets from @BIXImontreal.
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 ----------
 Full description:
-This application adds Montreal BIXI bike information to MonTransit BETA.
+This application adds Montreal BIXI bike stations information to MonTransit BETA.
 
 This app contains the bike stations position & availability as well as the latest news from @BIXImontreal on Twitter.
 
