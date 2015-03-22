@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources,InconsistentArrays,TypographyDashes">
     <integer name="rss_db_version">1</integer>
     <string name="rss_authority">org.mtransit.android.ca_montreal_bixi_bike.news.rss</string>
     <string name="rss_target_for_poi_authority">@string/bike_station_authority</string>
     <string name="rss_color">@string/bike_station_color</string>
     <bool name="rss_copy_to_file_instead_of_streaming">true</bool><!-- FIX invalid RSS! -->
+    <string name="rss_encoding">UTF-8</string>
     <string-array name="rss_feeds">
         <item>https://montreal.bixi.com/about-bixi/news/feed/fr/rss</item>
         <item>https://montreal.bixi.com/about-bixi/news/feed/en/rss</item>
