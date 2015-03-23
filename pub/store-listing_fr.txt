@@ -2,10 +2,11 @@ Title: Vélo BIXI Montréal - MonTrans…
 ----------
 Short description:
 Vélos BIXI de Montréal pour MonTransit BETA
-Disponibilité. Tweets @BIXImontreal
+Disponibilité. Nouvelles.
 ----------
 What's new in this version?:
 Correction de problèmes & Amélioration des performances.
+Nouvelles de montreal.bixi.com.
 Tweets de @BIXImontreal.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
@@ -13,7 +14,7 @@ BETA : Merci de votre patience pendant que les dernières fonctionnalités sont 
 Full description:
 Cette application ajoute les informations des stations vélos BIXI de Montréal à MonTransit BETA.
 
-Cette application contient la position & disponibilité des stations vélos ainsi que les dernières nouvelles de @BIXImontreal sur Twitter.
+Cette application contient la position & disponibilité des stations vélos ainsi que les dernières nouvelles de montreal.bixi.com et @BIXImontreal sur Twitter.
 
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
@@ -34,4 +35,4 @@ https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
 Cette application n'est pas associée à BIXI Montréal.
 
 Autorisations :
-- Autres : requis pour le chargement des informations des stations vélos et pour lire les nouvelles (Twitter)
+- Autres : requis pour le chargement des informations des stations vélos et pour lire les nouvelles de montreal.bixi.com et Twitter.
