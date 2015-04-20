@@ -11,7 +11,7 @@
     <string name="bike_station_area_max_lng">-73.4954</string>
     <string name="bike_station_color">D42B1E</string> <!-- RED -->
     <color name="bike_station_value1_color">#D42B1E</color> <!-- RED -->
-    <color name="bike_station_value1_color_bg">#FFFFFF</color> <!-- WHITE -->
+    <color name="bike_station_value1_color_bg">#D42B1E</color> <!-- RED -->
     <color name="bike_station_value2_color">#FFFFFF</color> <!-- WHITE -->
     <color name="bike_station_value2_color_bg">#000000</color> <!-- BLACK -->
 </resources>
