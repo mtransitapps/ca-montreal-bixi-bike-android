@@ -12,7 +12,7 @@ Tweets from @BIXImontreal.
 Full description:
 This application adds Montreal BIXI bike stations information to MonTransit.
 
-This app contains the bike stations position & availability as well as the latest news from montreal.bixi.com and @BIXImontreal on Twitter.
+This app contains the bike stations position & availability as well as the latest news from montreal.bixi.com, YouTube and @BIXImontreal on Twitter.
 
 BIXI Montreal is available from April to November in Montreal, Westmount and Longueuil.
 
@@ -31,7 +31,7 @@ https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
 This application is not related with the BIXI Montreal.
 
 Permissions:
-- Other: required to load bike stations information and to read news on montreal.bixi.com and Twitter.
+- Other: required to load bike stations information and to read news on montreal.bixi.com, YouTube and Twitter.
 ----------
 Application type: Applications
 ----------
