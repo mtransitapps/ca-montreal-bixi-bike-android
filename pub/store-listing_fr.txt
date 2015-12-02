@@ -23,7 +23,7 @@ Cette application a seulement une icône temporaire et pas d'écran : téléchar
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
 Les informations viennent d'un web-service fourni par BIXI Montréal: 
-https://montreal.bixi.com/data/bikeStations.xml
+https://montreal.bixi.com/données-libre-service
 
 Cette application est gratuite et open-source : 
 https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
