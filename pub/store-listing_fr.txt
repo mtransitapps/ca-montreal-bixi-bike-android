@@ -6,13 +6,12 @@ Disponibilité. Nouvelles
 ----------
 What's new in this version?:
 Correction de problèmes & Amélioration des performances.
-Nouvelles de montreal.bixi.com.
 Tweets de @BIXImontreal.
 ----------
 Full description:
 Cette application ajoute les informations des stations vélos BIXI de Montréal à MonTransit.
 
-Cette application contient la position & disponibilité des stations vélos ainsi que les dernières nouvelles de montreal.bixi.com, YouTube et @BIXImontreal sur Twitter.
+Cette application contient la position & disponibilité des stations vélos ainsi que les dernières nouvelles de YouTube et @BIXImontreal sur Twitter.
 
 BIXI Montreal est disponible de Avril à Novembre à Montréal, Westmount et Longueuil.
 
@@ -23,7 +22,7 @@ Cette application a seulement une icône temporaire et pas d'écran : téléchar
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
 Les informations viennent d'un web-service fourni par BIXI Montréal: 
-https://montreal.bixi.com/données-libre-service
+http://montreal.bixi.com/fr/donnees-ouvertes
 
 Cette application est gratuite et open-source : 
 https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
@@ -31,4 +30,4 @@ https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
 Cette application n'est pas associée à BIXI Montréal.
 
 Autorisations :
-- Autres : requis pour le chargement des informations des stations vélos et pour lire les nouvelles de montreal.bixi.com, YouTube et Twitter.
+- Autres : requis pour le chargement des informations des stations vélos et pour lire les nouvelles de YouTube et Twitter.
