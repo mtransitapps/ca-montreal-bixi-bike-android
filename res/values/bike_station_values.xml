@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="bike_station_db_version">4</integer>
+    <integer name="bike_station_db_version">10</integer>
     <string name="bike_station_authority">org.mtransit.android.ca_montreal_bixi_bike</string>
     <string name="bike_station_status_for_poi_authority">@string/bike_station_authority</string>
     <integer name="bike_station_agency_type">100</integer>
-    <!-- HTTPS not compatible with Android 4.x -->
-    <string name="bike_station_data_url">http://montreal.bixi.com/data/bikeStations.xml</string>
+    <string name="bike_station_data_url">https://api-core.bixi.com/gbfs/</string>
     <string name="bike_station_area_min_lat">45.429559</string>
     <string name="bike_station_area_max_lat">45.58077</string>
     <string name="bike_station_area_min_lng">-73.66712</string>
