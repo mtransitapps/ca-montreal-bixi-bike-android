@@ -18,7 +18,8 @@
         android:allowBackup="true"
         android:description="@string/app_desc"
         android:icon="@mipmap/module_app_icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        tools:ignore="GoogleAppIndexingWarning">
         <!-- SPLASH SCREEN -->
         <activity
             android:name="org.mtransit.android.commons.ui.ModuleRedirectActivity"
@@ -34,7 +35,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- BIKE STATIONs PROVIDER -->
+        <!-- BIKE STATIONS PROVIDER -->
         <provider
             android:name="org.mtransit.android.commons.provider.GBFSProvider"
             android:authorities="@string/bike_station_authority"
