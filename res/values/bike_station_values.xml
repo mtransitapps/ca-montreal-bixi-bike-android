@@ -12,6 +12,8 @@
     <string name="bike_station_color">D42B1E</string> <!-- RED -->
     <color name="bike_station_value1_color">#D42B1E</color> <!-- RED -->
     <color name="bike_station_value1_color_bg">#D42B1E</color> <!-- RED -->
+    <color name="bike_station_value1_sub_value1_color">#0080C6</color> <!-- BLUE -->
+    <color name="bike_station_value1_sub_value1_color_bg">#0080C6</color> <!-- BLUE -->
     <color name="bike_station_value2_color">#FFFFFF</color> <!-- WHITE -->
     <color name="bike_station_value2_color_bg">#000000</color> <!-- BLACK -->
 </resources>
