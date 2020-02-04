@@ -2,18 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.mtransit.android.ca_montreal_bixi_bike"
     tools:ignore="MissingVersion" >
-    <!-- REQUEST PERMISSIONS USAGE -->
-    <!-- INTERNET: Used for bike station status and more -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!-- DECLARES PERMISSIONS -->
-    <permission
-        android:name="org.mtransit.android.provider.permission.READ_PROVIDER"
-        android:description="@string/permission_description_read"
-        android:label="@string/permission_label_read"
-        android:protectionLevel="signature" />
-    <uses-feature
-        android:name="android.hardware.touchscreen"
-        android:required="false" />
     <application
         android:allowBackup="true"
         android:description="@string/app_desc"
@@ -40,7 +28,7 @@
             android:name="org.mtransit.android.commons.provider.GBFSProvider"
             android:authorities="@string/bike_station_authority"
             android:exported="true"
-            android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER"
+            android:readPermission="${permission_provider_read}"
             tools:ignore="MissingRegistered" >
             <meta-data
                 android:name="@string/agency_provider"
@@ -63,7 +51,7 @@
             android:name="org.mtransit.android.commons.provider.TwitterNewsProvider"
             android:authorities="@string/twitter_authority"
             android:exported="true"
-            android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER"
+            android:readPermission="${permission_provider_read}"
             tools:ignore="MissingRegistered" >
             <meta-data
                 android:name="@string/news_provider"
@@ -77,7 +65,7 @@
             android:name="org.mtransit.android.commons.provider.YouTubeNewsProvider"
             android:authorities="@string/youtube_authority"
             android:exported="true"
-            android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER"
+            android:readPermission="${permission_provider_read}"
             tools:ignore="MissingRegistered" >
             <meta-data
                 android:name="@string/news_provider"
