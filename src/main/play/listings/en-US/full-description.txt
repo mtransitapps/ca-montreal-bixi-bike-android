@@ -11,7 +11,7 @@ This application only has a temporary icon: download the MonTransit app (free) i
 You can install this application on the SD card but it is not recommended.
 
 The information comes from a web-service provided by BIXI Montreal: 
-https://bixi.com/en/open-data
+https://bixi.com/en/page-27
 
 This application is free and open-source:
 https://github.com/mtransitapps/ca-montreal-bixi-bike-android/

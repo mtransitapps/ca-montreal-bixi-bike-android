@@ -11,7 +11,7 @@ Cette application a seulement une icône temporaire : télécharger l'app MonTra
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
 Les informations viennent d'un web-service fourni par BIXI Montréal: 
-https://bixi.com/fr/donnees-ouvertes
+https://bixi.com/fr/page-27
 
 Cette application est gratuite et open-source : 
 https://github.com/mtransitapps/ca-montreal-bixi-bike-android/
