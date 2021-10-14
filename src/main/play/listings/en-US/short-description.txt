@@ -1,2 +1,1 @@
-Montreal BIXI bike sharing for MonTransit
-Availability. News.
+Montreal BIXI bike sharing for MonTransit. Availability. News.
