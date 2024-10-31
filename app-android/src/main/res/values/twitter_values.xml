@@ -11,7 +11,7 @@
         <item>20085288</item>
     </string-array>
     <string-array name="twitter_screen_names_lang">
-        <item>@string/news_provider_language_unknown_show_all</item>
+        <item>@string/news_provider_language_multi_detect</item>
     </string-array>
     <string-array name="twitter_screen_names_colors">
         <item>@string/twitter_color</item>
