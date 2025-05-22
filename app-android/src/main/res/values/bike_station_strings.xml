@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="bike_station_label">BIXI Bike</string>
-    <string name="bike_station_short_name">BIXI</string>
-</resources>
