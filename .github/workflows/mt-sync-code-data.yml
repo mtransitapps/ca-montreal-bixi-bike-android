@@ -49,20 +49,6 @@ jobs:
     timeout-minutes: 90
     runs-on: ubuntu-latest
     steps:
-      - name: MT check if force app release true
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == 'true' }}
-        run: |
-          echo "it's TRUE"
-      - name: MT check if force app release false
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == 'false' }}
-        run: |
-          echo "it's FALSE"
-      - name: MT log inputs
-        run: |
-          echo "${{ github.event.inputs.force-app-release }}"
-          echo "${{ github.event.inputs.force-app-release == 'true' }}"
-          echo "${{ github.event.inputs.force-app-release == 'false' }}"
-          exit 1; # error # testing
       - name: MT check out main repository code (no submodules)
         uses: actions/checkout@v4
         with:
@@ -125,7 +111,7 @@ jobs:
       - name: MT set app release required (or not)
         run: ./set_app_release_required.sh
       - name: MT check if force app release
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == true }}
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == 'true' }}
         run: |
           MT_TEMP_DIR=".mt";
           mkdir -p $MT_TEMP_DIR;
