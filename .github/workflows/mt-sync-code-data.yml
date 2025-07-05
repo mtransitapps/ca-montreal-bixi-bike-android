@@ -50,11 +50,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: MT check if force app release true
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == true }}
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == 'true' }}
         run: |
           echo "it's TRUE"
       - name: MT check if force app release false
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == false }}
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force-app-release == 'false' }}
         run: |
           echo "it's FALSE"
       - name: MT log inputs
