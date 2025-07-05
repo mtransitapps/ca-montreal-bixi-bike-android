@@ -49,6 +49,12 @@ jobs:
     timeout-minutes: 90
     runs-on: ubuntu-latest
     steps:
+      - name: MT log inputs
+        run: |
+          echo "${{ github.event.inputs.force-app-release }}"
+          echo "${{ github.event.inputs.force-app-release == true }}"
+          echo "${{ github.event.inputs.force-app-release == false }}"
+          exit 1; # error # testing
       - name: MT check out main repository code (no submodules)
         uses: actions/checkout@v4
         with:
