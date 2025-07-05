@@ -4,10 +4,10 @@
     <string name="bike_station_status_for_poi_authority">@string/bike_station_authority</string>
     <integer name="bike_station_agency_type">100</integer>
     <string name="bike_station_data_url">https://gbfs.velobixi.com/gbfs/</string>
-    <string name="bike_station_area_min_lat">45.40</string>
+    <string name="bike_station_area_min_lat">45.38</string>
     <string name="bike_station_area_max_lat">45.71</string>
-    <string name="bike_station_area_min_lng">-73.80</string>
-    <string name="bike_station_area_max_lng">-73.30</string>
+    <string name="bike_station_area_min_lng">-73.94</string>
+    <string name="bike_station_area_max_lng">-71.87</string>
     <string name="bike_station_color">D42B1E</string> <!-- RED -->
     <color name="bike_station_value1_color">#D42B1E</color> <!-- RED -->
     <color name="bike_station_value1_color_bg">#D42B1E</color> <!-- RED -->
