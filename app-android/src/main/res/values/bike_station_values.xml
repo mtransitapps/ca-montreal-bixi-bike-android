@@ -17,4 +17,6 @@
     <color name="bike_station_value2_color_bg">#000000</color> <!-- BLACK -->
     <string name="bike_station_contact_us">https://bixi.com/en/contact-us</string>
     <string name="bike_station_contact_us_fr">https://bixi.com/fr/nous-joindre</string>
+    <string name="bike_station_fares">https://bixi.com/en/pricing</string>
+    <string name="bike_station_fares_fr">https://bixi.com/fr/tarifs</string>
 </resources>
